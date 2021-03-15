@@ -1,0 +1,126 @@
+@font-face
+{
+font-family: Channel Tuning;
+src: url(fonts/ChannelTuning.ttf);
+}
+
+@media (max-width: 600px)
+{
+
+.nav
+{
+font-size:17px !important;
+}
+
+}
+
+body
+{
+background-image: url("images/background_img.jpg");
+}
+
+.container
+{
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+.nav
+{
+float:right;
+font-size:25px;
+}
+
+.nav a:link
+{
+padding-top:10px;
+padding-right:25px;
+color:white;
+text-decoration:none;
+font-family:"Special Elite";
+}
+
+.nav a:hover
+{
+color:#862d2d !important;
+}
+
+.nav a:visited
+{
+color:white;
+}
+
+.logo
+{
+display:block;
+}
+
+.logo p
+{
+color:white;
+font-size:45px;
+font-family:"Channel Tuning";
+}
+
+.logo img
+{
+width:120px;
+height:130px;
+}
+
+.buttons_cont
+{
+    width:100%;
+}
+
+.buttons_cont > button
+{
+    font-family:"Special Elite";
+    font-size:20px;
+    border:none;
+    color:white;
+    background-color:inherit;
+    width:31%;
+    text-align:center;
+    height:50px;
+    margin:10px;
+    text-decoration:none;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(255, 255, 255, 0.75);
+    box-shadow:         0px 0px 15px 0px rgba(255, 255, 255, 0.75);
+}
+
+.buttons_cont > button:hover
+{
+    color:#862d2d;
+}
+
+.title_cont
+{
+    width:100%;
+    text-align:center;
+    font-size:30px;
+    font-family:"Frijole";
+    color:white;
+    padding:20px;
+}
+
+.text_cont
+{
+    text-align:justify;
+    width:100%;
+    font-size:20px;
+    font-family:"Special Elite";
+    color:white;
+}
+
+p
+{
+    display:none;
+}
+
+h1
+{
+    display:none;
+}
