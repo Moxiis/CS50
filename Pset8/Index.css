@@ -1,0 +1,162 @@
+@font-face
+{
+font-family: Channel Tuning;
+src: url(fonts/ChannelTuning.ttf);
+}
+
+@media (max-width: 1199px)
+{
+.row img
+{
+float:none !important;
+}
+
+.row_text
+{
+float:none !important;
+width:100% !important;
+}
+
+.row_title
+{
+padding-top:10px;
+}
+
+}
+
+@media (max-width: 600px)
+{
+.carousel-control-prev
+{
+left: -5% !important;
+top:45% !important;
+}
+
+.carousel-control-next
+{
+left: 90% !important;
+top:45% !important;
+}
+
+.nav
+{
+font-size:17px !important;
+}
+
+}
+
+body
+{
+background-image: url("images/background_img.jpg");
+}
+
+.container
+{
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+.carousel-control-prev
+{
+left: -15%;
+height:0;
+top:50%;
+}
+
+.carousel-control-next
+{
+left: 100%;
+height:0;
+top:50%;
+}
+
+.nav
+{
+float:right;
+font-size:25px;
+}
+
+.nav a:link
+{
+padding-top:10px;
+padding-right:25px;
+color:white;
+text-decoration:none;
+font-family:"Special Elite";
+}
+
+.nav a:hover
+{
+color:#862d2d !important;
+}
+
+.nav a:visited
+{
+color:white;
+}
+
+.logo
+{
+display:block;
+}
+
+.logo p
+{
+color:white;
+font-size:45px;
+font-family:"Channel Tuning";
+}
+
+.logo img
+{
+width:120px;
+height:130px;
+}
+
+.row
+{
+width:100%;
+display:block;
+margin:0 auto;
+padding-top:15px;
+padding-bottom:15px;
+border-bottom:2px outset #ff4d4d;
+overflow:auto;
+text-align:center;
+}
+
+.row img
+{
+float:left;
+width:320px;
+height:190px;
+border:1px solid grey;
+}
+
+.row_title
+{
+padding-bottom:5px;
+display:inline-block;
+color:white;
+font-family:"Frijole";
+font-size:25px;
+}
+
+.row_content
+{
+float:left;
+color:white;
+font-family:"Special Elite";
+padding-left:20px;
+text-align:justify;
+}
+
+.row_text
+{
+display:inline-block;
+width:71%;
+float:right;
+}
+
+
